@@ -1,0 +1,96 @@
+/*
+Project Name: Week One Assesment/ Instagram rip off
+Client: GA WDI-Den
+Author: Brian D. Ridge
+Developer @GA_Den
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	
+}
+
+header {
+
+}
+
+img {
+
+}
+
+button {
+
+}
+
+section {
+
+}
+
+footer {
+
+}
+
+
+div {
+
+}
+
+
+h1 {
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.header {
+	height: 30%;
+
+}
+
+.brandLogo {
+
+}
+
+.button {
+
+}
+
+.login {
+
+}
+
+.phoneImages {
+
+}
+
+.main {
+
+}
+
+.footer {
+
+}
+.links {
+	text-transform: uppercase;
+	color: #125688;
+
+}
+
+#copyright {
+	color: #d3d3d3
+
+}
