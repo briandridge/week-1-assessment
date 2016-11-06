@@ -14,6 +14,20 @@ Developer @GA_Den
 	font-family: 'Open Sans', sans-serif;
 }
 
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -23,6 +37,9 @@ body {
 }
 
 header {
+	background-color: #125688;
+	height: 300px;
+	
 
 }
 
@@ -31,6 +48,7 @@ img {
 }
 
 button {
+	color: white;
 
 }
 
@@ -57,11 +75,10 @@ h1 {
 /*******************************************/
 
 .header {
-	height: 30%;
-
+	
 }
 
-.brandLogo {
+#brandLogo {
 
 }
 
@@ -73,24 +90,29 @@ h1 {
 
 }
 
-.phoneImages {
-
+#phoneImages {
+	
 }
 
-.main {
-
+#main {
+	width: 470px;
+		
 }
 
 .footer {
+	clear: both;
+
 
 }
 .links {
 	text-transform: uppercase;
 	color: #125688;
+	float: left;
 
 }
 
 #copyright {
-	color: #d3d3d3
+	color: #d3d3d3;
+	float: left;
 
 }
