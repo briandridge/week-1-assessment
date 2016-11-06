@@ -28,6 +28,11 @@ Developer @GA_Den
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+/* make scalable   @media {*/
+
+	
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -67,6 +72,7 @@ div {
 
 
 h1 {
+	color: #125688;
 
 }
 
@@ -82,11 +88,29 @@ h1 {
 
 }
 
-.button {
+#loginButton {
+	background-color: #125688;
+	border: 1px black;
+	border-radius: 2px;
+	padding: 10px;
+	display: inline-flex;
+	align-items: center;
+
 
 }
 
-.login {
+.copy {
+	background-image: "images/frame.png";
+
+}
+
+#loginButton {
+	font-weight: 600; 
+
+}
+
+#homeIcon {
+	padding-right: 10px;
 
 }
 
@@ -96,11 +120,14 @@ h1 {
 
 #main {
 	width: 470px;
-		
+
 }
 
 .footer {
 	clear: both;
+	text-align: center;
+	/*display: flex;
+	align-items: stretch;*/
 
 
 }
@@ -108,7 +135,10 @@ h1 {
 	text-transform: uppercase;
 	color: #125688;
 	float: left;
-
+	font-weight: 600;
+	display: inline-block;
+	padding: 0px 20px 20px 0px;
+	font-size: 12px;
 }
 
 #copyright {
