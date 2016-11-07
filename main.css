@@ -44,8 +44,6 @@ body {
 header {
 	background-color: #125688;
 	height: 300px;
-	
-
 }
 
 img {
@@ -100,8 +98,8 @@ h1 {
 }
 
 .copy {
-	background-image: "images/frame.png";
-
+	padding: 25px 0px 0px 50px;
+	
 }
 
 #loginButton {
@@ -115,11 +113,13 @@ h1 {
 }
 
 #phoneImages {
-	
+	padding: 100px 0px 0px 100px;
 }
 
 #main {
 	width: 470px;
+	background-image: url("images/frame.png");
+	background-repeat: no-repeat;
 
 }
 
