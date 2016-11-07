@@ -20,18 +20,19 @@ Developer @GA_Den
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px;
 }
 
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  padding: 0 10px 10px 0;
 }
 
-/* make scalable   @media {*/
+#container {
 
-	
 }
+
+/* make scaleable? @media
 
 /******************************************
 /* BASE STYLES
@@ -82,10 +83,6 @@ h1 {
 	
 }
 
-#brandLogo {
-
-}
-
 #loginButton {
 	background-color: #125688;
 	border: 1px black;
@@ -97,30 +94,30 @@ h1 {
 
 }
 
-.copy {
-	padding: 25px 0px 0px 50px;
-	
+#phoneImages {
+	padding: 100px 0px 0px 100px;
+}
+
+#brandLogo {
+	position: relative
 }
 
 #loginButton {
 	font-weight: 600; 
-
 }
 
 #homeIcon {
 	padding-right: 10px;
-
-}
-
-#phoneImages {
-	padding: 100px 0px 0px 100px;
 }
 
 #main {
 	width: 470px;
 	background-image: url("images/frame.png");
 	background-repeat: no-repeat;
+}
 
+.copy {
+	padding: 25px 0px 0px 50px;	
 }
 
 .footer {
